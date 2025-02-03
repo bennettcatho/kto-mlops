@@ -18,6 +18,6 @@ def names(first_names):
     return long_names_amount
 
 if __name__ == '__main__':
-    prenoms = ["Guillaume", "Gilles", "Juliette", "Antoine", "François", "Cassandre"]
-    print("Nombre de prénoms dont le nombre de lettres est supérieur à 7 : " + str(names(first_names=prenoms)))
+    names_list = ["Guillaume", "Gilles", "Juliette", "Antoine", "François", "Cassandre"]
+    print("Nombre de prénoms dont le nombre de lettres est supérieur à 7 : " + str(names(first_names=names_list)))
     unittest.main()
