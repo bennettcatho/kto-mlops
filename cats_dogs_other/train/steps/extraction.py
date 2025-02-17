@@ -18,3 +18,4 @@ def extraction_from_annotation_file(bucket_name: str, s3_path: str, filename: st
             extract[annotation["fileName"]] = label
             classes.add(label)
     return extract, classes
+
