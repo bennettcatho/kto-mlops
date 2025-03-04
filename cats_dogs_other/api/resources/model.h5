@@ -1,0 +1,3 @@
+from kto.inference import Inference
+
+model = Inference("./cats_dogs_other/api/resources/final_model.keras")
